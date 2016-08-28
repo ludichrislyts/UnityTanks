@@ -1,8 +1,8 @@
 ﻿using System;
 using UnityEngine;
 
-[Serializable]
-public class TankManager
+[Serializable] // to show in inspector
+public class TankManager // not inherited from MonoBehavior
 {
     public Color m_PlayerColor;            
     public Transform m_SpawnPoint;         
